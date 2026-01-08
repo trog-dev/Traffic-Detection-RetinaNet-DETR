@@ -1,0 +1,13 @@
+streamlit>=1.28.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+onnxruntime>=1.16.0
+onnxruntime-gpu>=1.16.0  # Optional: Nếu có GPU NVIDIA
+Pillow>=10.0.0
+
+# For Deformable DETR support
+transformers>=4.30.0
+torch>=2.0.0
+torchvision>=0.15.0
+safetensors>=0.3.0
+timm>=0.9.0
